@@ -22,7 +22,7 @@ function getLogArgs({
   };
 }
 
-exports.buildLogger = (logTag) => function buildLogger(buildStep, format, ...args) {
+export const buildLogger = (logTag) => function buildLogger(buildStep, format, ...args) {
   const {
     _buildStep,
     _msg,
@@ -38,7 +38,7 @@ exports.buildLogger = (logTag) => function buildLogger(buildStep, format, ...arg
   console.log(`${_time} ${_tag}${_buildStep} ${_msg}`); //eslint-disable-line
 };
 
-exports.logger = (logTag) => function logger(format, ...args) {
+export const logger = (logTag) => function logger(format, ...args) {
   const {
     _msg,
     _tag,
