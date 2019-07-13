@@ -1,18 +1,9 @@
 {
-  "name": "jege",
-  "version": "0.2.0",
-  "description": "",
-  "main": "lib/index.js",
-  "scripts": {
-    "build": "node ./scripts/build.js",
-    "eslint": "npx eslint . --ext .ts,.tsx,.js,.jsx",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Elden S. Park",
   "dependencies": {
     "chalk": "^2.4.2"
   },
+  "description": "",
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@typescript-eslint/eslint-plugin": "^1.12.0",
@@ -35,5 +26,18 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-push": "yarn eslint"
     }
-  }
+  },
+  "main": "lib/index.js",
+  "name": "jege",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldeni/jege.git"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "license": "ISC",
+    "eslint": "npx eslint . --ext .ts,.tsx,.js,.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.0"
 }
