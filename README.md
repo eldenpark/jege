@@ -1,5 +1,5 @@
 # Jege
-Isomorphic Logger
+Isomorphic Logger in JavaScript.
 
 ## Installation
 ```
