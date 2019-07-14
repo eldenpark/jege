@@ -15,7 +15,7 @@ const paths = {
 const log = (tag, ...args) => {
   const time = new Date().toISOString();
   const name = chalk.cyan('[express-isomorphic]');
-  const _tag = chalk.magenta(`[gulp>${tag}]`);
+  const _tag = chalk.magenta(`[build>${tag}]`);
   console.log(`${time} ${name} ${_tag} ${util.format(...args)}`); // eslint-disable-line
 };
 
