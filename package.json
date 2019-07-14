@@ -39,5 +39,5 @@
     "eslint": "npx eslint . --ext .ts,.tsx,.js,.jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.3.0"
+  "version": "0.4.0"
 }
