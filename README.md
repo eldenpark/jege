@@ -4,7 +4,7 @@ Isomorphic Logger in JavaScript.
 ## Installation
 ```
 npm install jege
-yarn install jege // using yarn
+yarn add jege // using yarn
 ```
 
 ## Usage
